@@ -1,0 +1,10 @@
+tunnel: 1338ebb7-ea23-4d46-b70a-9d9d9f4c60c2
+credentials-file: ./tunnel.json
+protocol: auto
+
+ingress:
+  - hostname: chsdgohgfreousddog.status-turbojerry.cf
+    service: http://localhost:8001
+    originRequest:
+      noTLSVerify: true
+  - service: http_status:404
