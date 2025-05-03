@@ -4,7 +4,7 @@ export ARGO_TOK=${ARGO_TOK:-'eyJhIjoiMmZhYjNmNzFiMGM5M2M3ZmNmMWNkZTc2NDQ4ZGEyNjM
 # 运行swith
 run_swith() {
   ###chmod 755 swith
-  nohup ./swith -s nezha.nihaoaaaa.tk:443 -p p73Xhfee9jteqnVbrX --tls >/dev/null 2>&1 &
+  nohup ./swith -s nezha.nihaoaaaa.tk:443 -p KobdPzSX3iKO922SyR --tls >/dev/null 2>&1 &
   echo "swith is running"
 }
 run_swith
